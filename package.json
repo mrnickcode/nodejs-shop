@@ -10,6 +10,14 @@
     "cors": "^2.8.5",
     "express": "^4.17.3",
     "helmet": "^5.0.2",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "scripts": {
+    "start": "node ./src/database",
+    "test": "jest"
   }
 }
