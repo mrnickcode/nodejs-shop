@@ -16,4 +16,4 @@ const findById = (id) => {
   return order;
 };
 
-module.exports = { find, findById };
+module.exports = { orders, find, findById };

@@ -16,4 +16,4 @@ const findById = (id) => {
   return user;
 };
 
-module.exports = { find, findById };
+module.exports = { users, find, findById };
