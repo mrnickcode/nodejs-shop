@@ -1,3 +1,11 @@
+==TODO==
+
+install postgres
+frontend
+typescript?
+
+==DATABASE==
+
 users
   id
   email
