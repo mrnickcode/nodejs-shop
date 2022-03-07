@@ -1,0 +1,25 @@
+{
+  "name": "web-shop-api",
+  "version": "1.0.0",
+  "description": "Simple NodeJs web shop",
+  "main": "index.js",
+  "author": "nicolasenglandlouispierre@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3",
+    "pg-format": "^1.0.4"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "jest"
+  }
+}
