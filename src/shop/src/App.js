@@ -1,3 +1,4 @@
+import './App.css';
 import Shop from './Pages/Shop';
 
 function App() {

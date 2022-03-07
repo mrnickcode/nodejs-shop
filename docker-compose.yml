@@ -1,14 +1,25 @@
 version: '3.8'
 
 services:
+  shop:
+    container_name: shop_container
+    build: 
+      context: ./src/shop
+    ports:
+      - '3000:3000'
+    networks:
+      - postgres
+    depends_on:
+     - server
+
   server:
     container_name: server_container
     image: node:lts-stretch-slim
     working_dir: /home/node/app
     volumes:
       - './:/home/node/app'
-    expose:
-      - '4000'
+    ports:
+      - '4000:4000'
     networks:
       - postgres
     command: 'sh -c "sleep 3s && yarn start"'

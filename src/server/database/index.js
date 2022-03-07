@@ -18,11 +18,12 @@ async function initDb() {
     await client.query(`CREATE DATABASE "${database}";`);
     await createTables();
     await seed();
+    client.end();
+
   } catch (err) {
-    console.error(err);
+    console.error('initDb error caught');
   }
 
-  client.end();
 }
 
 async function createTables() {
@@ -57,4 +58,4 @@ async function createTables() {
   pool.end();
 }
 
-module.exports = { config, initDb };
+module.exports = { config, database, initDb };

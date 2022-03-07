@@ -1,8 +1,17 @@
-==TODO==
+====INSTALL=====
+Must have Docker and docker-compose on your machine.
 
+====ENDPOINTS=====
+Shop at => http://localhost:3000
+API at => http://localhost:4000
+pgadmin at => http://localhost:5050
+
+
+==TODO==
 frontend
 typescript?
 make an env file
+docker-compose shop command pointing to right package
 
 X install postgres
 
