@@ -1,8 +1,10 @@
 ==TODO==
 
-install postgres
 frontend
 typescript?
+make an env file
+
+X install postgres
 
 ==DATABASE==
 
